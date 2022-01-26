@@ -1,3 +1,12 @@
+* {
+    border-radius: 0 !important;
+}
+
 body {
-    background-color: #81e27e;
+    background-color: #2b2b2b;
+    color: rgb(209, 209, 209);
+}
+
+.card {
+    background-color:rgb(22, 22, 22);
 }
