@@ -1,5 +1,16 @@
 * {
     border-radius: 0 !important;
+    cursor: none;
+    
+}
+
+.nobar::-webkit-scrollbar {
+    display: none;
+}
+
+.nobar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 body {
@@ -9,4 +20,8 @@ body {
 
 .card {
     background-color:rgb(22, 22, 22);
+}
+
+.card.highlighted {
+    border: 2px solid rgb(255, 225, 144);
 }
